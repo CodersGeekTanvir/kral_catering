@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+img{
+    max-width: 100%;
+}
+ul,li{
+      list-style:none;
+}
+
+body{
+    font-family: 'Saira', sans-serif !important;
+    background-color: #F3F0EB !important;
+}
+
+
+/* Header Starts */
+
+
+
+.top_header {
+    padding: 5px 0;
+}
+
+.top_header_left {}
+
+.top_header_left p {
+    margin: 0;
+}
+
+.top_header_left p a {
+
+    color: #333;
+    text-decoration: none;
+}
+
+.top_header_right {}
+
+.top_header_right ul {}
+
+.top_header_right ul li {}
+
+.top_header_right ul li a {
+
+    color: #000;
+}
+
+.top_header_right ul li a i {}
+
+.top_header hr {}
+
+/* Bottom Header */
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #B56251 !important;
+}
+
+.bottom_header{
+  
+    position: relative;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: #F3F0EB;
+}
+.navbar {
+       
+    }
+
+.bottom_header .navbar-brand img{
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    width: 300px;
+}
+
+
+
+/* Bottom Header */
+
+
+
+/* Header Ends */
+
+/* Dicount Starts */
+
+.discount{
+     background-color: #333333;
+     padding:8px 0;
+}
+
+.discount p{
+      color: #BCAA78;
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: 800;
+}
+
+/* Dicount Ends */
+
+/* Banner Starts */
+ 
+.banner{
+       background-image: url(../images/banner.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       background-position: center;
+}
+.banner_overlay{
+       padding: 165px 0;
+       background-color: #0000006e;
+}
+.banner_overlay h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+/* Banner Ends */
+
+/* products starts */
+.products_section{
+    padding: 120px 0 20px 0;
+}
+.product {
+    padding-bottom: 80px;
+}
+.product_example {
+    position: relative;
+    padding: 0 12px;
+}
+/* Hover Position Effect Starts*/
+
+.product_image{
+      position: relative;
+      max-width: 300px;
+      display: inline-block;
+      overflow: hidden;
+}
+.product_image img{
+    width: 300px;
+    transition: all linear 0.4s;
+    height: 250px;
+    object-fit: cover;
+}
+.hover_display_image{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    opacity: 0;
+}
+.product_example:hover .display_image{
+            opacity: 0;
+}
+.product_example:hover .hover_display_image{
+    top: 0;
+    opacity: 1;
+}
+
+
+.product_image h4{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%,40px);
+    font-size: 16px;
+    background-color: #000;
+    padding: 6px 0px;
+    width: 100%;
+    color: #fff;
+    opacity: 0;
+    transition: all linear 0.5s;
+}
+
+
+.product_example:hover .product_image h4 {
+    opacity: 1;
+    bottom: 31px;
+}
+
+
+/* Hover Position Effect Ends*/
+.product_description{
+
+}
+.product_description h3{
+
+}
+.product_description strike{
+
+    display: inline-block;
+    font-size: 14px;
+}
+.product_description p{
+
+    font-size: 14px;
+    color: #3e3838;
+}
+ /* .product_description p{
+    
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    padding: 4px 12px;
+    border-radius: 4px;
+    
+}  */
+
+
+
+
+.products_section hr {
+    color: #000;
+    opacity: 1;
+}
+/* products Ends */
+
+  /* Review Secton Starts */
+
+  .review{
+      padding: 20px 0;
+  }
+
+  /* Review Section Ends */
+
+
+/* Footer Starts */
+footer{
+padding-top: 35px;
+padding-bottom: 28px;
+}
+.footer_contact{
+
+    position: relative;
+}
+
+.footer_contact ul{
+
+}
+.footer_contact ul li{
+
+}
+.footer_contact ul li h5{
+
+    color: #3e3838;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.footer_contact ul li a{
+
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.7;
+    transition: all 0.3s linear;
+}
+.footer_contact ul li a:hover{
+
+    color: #B56251;
+}
+.footer_contact img{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.footer_copyright{
+  padding-top: 32px;
+ 
+}
+.footer_copyright p{
+    color: #3e3838;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+/* Footer Ends */
+

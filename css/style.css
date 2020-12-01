@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
+*{
+    scroll-behavior: smooth;
+}
 img{
     max-width: 100%;
 }
@@ -64,11 +66,10 @@ body{
     color: #B56251 !important;
 }
 
-.bottom_header{
-  
+.bottom_header {
     position: relative;
-    padding-top: 31px;
-    padding-bottom: 31px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #F3F0EB;
 }
 .navbar {
@@ -231,8 +232,28 @@ body{
   /* Review Secton Starts */
 
   .review{
-      padding: 20px 0;
+      padding: 20px 0 35px 0;
   }
+  .kPkHRI {
+    background-color: rgba(206, 204, 204, 0.52)!important;
+  
+}
+.enEynK {
+    background-color: rgba(206, 204, 204, 0.52)!important;
+}
+
+.eapps-widget:hover .eapps-widget-toolbar-panel {
+    opacity: 0!important;
+}
+
+.eapps-widget-toolbar-panel-share-button {
+
+    opacity: 0!important;
+     
+}
+.eapps-widget-toolbar-panel-only-you {
+    opacity: 0 !important;
+}
 
   /* Review Section Ends */
 

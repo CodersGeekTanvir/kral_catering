@@ -130,8 +130,12 @@ body{
 /* Banner Ends */
 
 /* products starts */
-.products_section{
-    padding: 120px 0 20px 0;
+.products_section {
+    padding: 65px 0 20px 0;
+}
+.products_section_heading {
+    padding-bottom: 26px;
+    color: #333;
 }
 .product {
     padding-bottom: 80px;

@@ -157,6 +157,7 @@ body{
     transition: all linear 0.4s;
     height: 250px;
     object-fit: cover;
+    border-radius: 7px;
 }
 
 .hover_display_image{
